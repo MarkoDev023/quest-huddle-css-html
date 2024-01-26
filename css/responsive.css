@@ -1,0 +1,64 @@
+@media (max-width: 675px) {
+    body {
+        background: url(../src/images/bg-mobile.svg) no-repeat ;
+        height: 20vh;
+        background-color: var(--Violet);
+        
+    }
+
+    .logo img {
+        width: 120px;
+        margin-left: 30px;
+    }
+
+    .hero .illustration img {
+        width: 80%;
+        margin-left: 45px;
+    }
+
+    .illustration {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        margin-right: 160px;
+    }
+
+    .hero .info {
+        margin-left: 30px;
+    }
+
+    .hero .info h1 {
+        font-size: 21px;
+        width: 260px;
+        line-height: 35px;
+        text-align: center;
+        margin-top: 95px;
+    }
+
+    .hero .info p {
+        font-size: 12px;
+        text-align: center;
+        width: 245px;
+        margin-left: 10px;
+    }
+
+    .hero .illustration .btn {
+        font-size: 11px;
+        padding: 6px 55px;
+        margin-left: 55px;
+    }
+
+    .social {
+        margin-right: 130px;
+        margin-top: 60px;
+    }
+
+    .social a .fab {
+        font-size: 10px;
+    }
+}
+

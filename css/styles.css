@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url(../src/images/bg-desktop.svg) no-repeat center center;
+    background-color: var(--Violet);
+    background-size: cover;
+}
+
+.logo img {
+    margin: 35px 60px;
+    width: 180px;
+}
+
+.hero {
+    margin-left: 65px;
+}
+
+.hero .illustration {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+.hero .illustration img {
+    width: 670px;
+}
+
+.hero .info {
+    margin-left: 35px;
+}
+
+.hero .info h1 {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    margin-top: 45px;
+}
+
+.hero .info p {
+    color: #fff;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    max-width: 470px;
+    font-size: 1.5rem;
+    margin: 35px 0;
+}
+
+.hero .illustration .btn {
+    color: var(--Violet);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.7rem;
+    background-color: #fff;
+    padding: 14px 55px;
+    border-radius: 30px;
+}
+
+.hero .illustration .btn:hover {
+    background-color: var(--Soft-Magenta);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.social {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.social a .fab {
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 10px;
+    margin-right: 21px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-weight: 400;
+}
+
+.social a i:hover {
+    color: var(--Soft-Magenta);
+    border: 1px solid var(--Soft-Magenta);
+    transition: 0.3s;
+}
